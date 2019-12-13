@@ -1,6 +1,12 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
-
+<Wrapper as |Wrap|>
+  <Wrap.Top>
+    <UiButton>
+      Top Button
+    </UiButton>
+  </Wrap.Top>
+  <Wrap.Bottom>
+    <UiButton>
+      Bottom Button
+    </UiButton>
+  </Wrap.Bottom>
+</Wrapper>
